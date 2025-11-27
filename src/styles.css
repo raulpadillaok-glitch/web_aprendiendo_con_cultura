@@ -1,0 +1,23 @@
+/* Fondo general tipo "Mina Oscura" */
+body {
+    background-color: #1a1a1a; /* Gris muy oscuro */
+    color: #f0f0f0; /* Texto claro */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Ajustes para las tarjetas oscuras */
+.card {
+    background-color: #2c2c2c; /* Gris un poco más claro */
+}
+
+/* Títulos con color "Oro" */
+h1, h2, h3 {
+    color: #ffc107; 
+}
+
+/* Efecto hover suave en botones */
+.btn-warning:hover {
+    background-color: #e0a800;
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}

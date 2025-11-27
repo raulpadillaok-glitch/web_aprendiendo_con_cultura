@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+    <a class="navbar-brand fw-bold" routerLink="/">Eco del Socavón</a>
+    
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" routerLink="/" routerLinkActive="active">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/historia" routerLinkActive="active">Historia</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/jugabilidad" routerLinkActive="active">Jugabilidad</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-4">
+  <router-outlet></router-outlet>
+</div>
+
+<footer class="bg-dark text-white text-center py-4 mt-5">
+  <p class="m-0">Proyecto Educativo: Aritmética Ancestral</p>
+  <small>Potosí & Oruro - Bolivia</small>
+</footer>
